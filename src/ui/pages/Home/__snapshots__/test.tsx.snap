@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Home /> should render the <Main /> component 1`] = `
+.c0 {
+  margin: 20px;
+}
+
+<div
+  class="c0"
+>
+  <div
+    data-testid="main-component"
+  />
+</div>
+`;

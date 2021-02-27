@@ -1,0 +1,21 @@
+{
+  "name": "Next.js Pro - Boilerplate",
+  "short_name": "Next.js Boilerplate",
+  "icons": [
+    {
+      "src": "/img/icon.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/img/icon.png.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "background_color": "#a0a0a0",
+  "description": "Next.js boilerplate ready to production!",
+  "display": "fullscreen",
+  "start_url": "/",
+  "theme_color": "#a0a0a0"
+}
