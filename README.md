@@ -23,4 +23,4 @@ npm install
 npm run dev
 ```
 
-I hope it helps you!
+I hope it helps you!.
