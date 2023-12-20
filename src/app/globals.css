@@ -1,0 +1,32 @@
+:root {
+  --wrapper-max-width: 1200px;
+  --font-s: 16px;
+  --font-m: 24px;
+  --font-b: 32px;
+  --border-radius: 12px;
+  --cta-collor: #2962FF;
+  --cta-text-collor: #fff;
+  --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
+    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
+    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+}
+
+* {
+  --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
+  'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
+  'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}

@@ -1,0 +1,48 @@
+.header {
+  width: 100%;
+  height: 90px;
+  
+  .wrapper {
+    width: 100%;
+    height: 100%;
+    max-width: var(--wrapper-max-width);
+    margin: 0 auto;
+    
+    display: flex;
+    flex-direction: row;
+    
+    > div {
+      flex-grow: 1;
+      
+      &:nth-child(2) {
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        a {
+          color: #222;
+          font-weight: 600;
+          font-size: var(--font-s);
+        }
+      }
+      
+      &:first-child {
+        font-size: var(--font-m);
+        vertical-align: center;
+        margin: auto;
+        text-align: inherit;
+        color: #303030;
+      }
+      
+      &:last-child {
+        text-align: right;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+      }
+    }
+  }
+}

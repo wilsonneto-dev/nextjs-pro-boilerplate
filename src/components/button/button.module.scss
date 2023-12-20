@@ -1,0 +1,17 @@
+.button {
+  background-color: var(--cta-collor);
+  border: none;
+  border-radius: 20px;
+  color: var(--cta-text-collor);
+  cursor: pointer;
+  display: inline-block;
+  font-size: var(--font-s);
+  font-weight: 600;
+  line-height: 1;
+  padding: 10px 20px;
+  transition: all 0.3s ease-in-out;
+  
+  &:hover {
+    box-shadow: #909090 0 0 10px 0;
+  }
+}
